@@ -33,7 +33,13 @@ const Nav = styled.div`
     .nav-item {
         padding: 0 1rem 0 1rem;
         margin: .5rem 0 .5rem 0;
+        font-size: 1.3rem;
     }
+
+    h1 {
+        font-size: 2rem;
+    }
+
 `
 
 export default Navbar

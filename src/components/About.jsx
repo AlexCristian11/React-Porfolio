@@ -26,6 +26,8 @@ const AboutStyle = styled.div`
     width: 90%;
     margin: 0 auto;
     justify-content: space-around;
+    margin-bottom: 200px;
+    margin-top: 150px;
 
     .description {
         width: 60%;
@@ -34,6 +36,14 @@ const AboutStyle = styled.div`
         flex-direction: column;
         justify-content: center;
         margin-bottom: 20px;
+
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+        }
     }
 
     img {
