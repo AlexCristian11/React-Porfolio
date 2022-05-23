@@ -4,7 +4,7 @@ import { FaHtml5, FaCss3, FaGithub, FaChrome, FaTerminal, FaFigma, FaUniversalAc
 import { SiJavascript } from 'react-icons/si';
 function Skills() {
   return (
-    <Icons>
+    <Icons id="skills">
         <h2>Skills</h2>
         <div className="skills">
             <FaHtml5 className="icon" size="50px"/>
@@ -29,6 +29,7 @@ const Icons = styled.div`
     h2 {
         text-align: center;
         margin-bottom: 50px;
+        font-size: 1.75rem;
     }
 
     .skills {

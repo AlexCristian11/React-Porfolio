@@ -13,7 +13,7 @@ function Projects() {
     )
 
   return (
-    <div>
+    <div id="projects">
         <div className="headline">
             <h2>Projects</h2>
             <p>Here you can see some of the projects that I made!</p>

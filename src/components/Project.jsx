@@ -42,11 +42,12 @@ const ProjectStyle = styled.div`
 
     h3 {
         margin: 0 auto;
+        font-size: 1.4rem;
     }
 
     p {
         padding: 1rem;
-        font-size: 16px;
+        font-size: 1.1rem;
     }
 
     a {

@@ -5,7 +5,7 @@ import image from '../img-src/placeholder.jpg';
 
 function About() {
   return (
-    <AboutStyle>
+    <AboutStyle id="about-me">
         <div className="description">
             <h2>About Me</h2>
             <p>Hi! My name is Alex , a 19 yrs old student from Romania!</p>
