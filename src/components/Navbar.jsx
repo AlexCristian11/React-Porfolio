@@ -61,9 +61,15 @@ const Nav = styled.div`
         color: #000;
         font-size: 1.3rem;
     }
+    #contact:hover {
+        color: #683fe2;
+    }
 
     nav.dark #contact {
         color: #fff;
+    }
+    nav.dark #contact:hover {
+        color: #683fe2;
     }
 
     .nav-item {
@@ -78,6 +84,10 @@ const Nav = styled.div`
         font-size: 1.3rem;
     }
     .nav-item a:hover {
+        color: #683fe2;
+    }
+
+    nav.dark .nav-item a:hover {
         color: #683fe2;
     }
 
