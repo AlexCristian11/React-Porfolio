@@ -3,13 +3,16 @@ import { FaGithub } from 'react-icons/fa';
 import styled from 'styled-components';
 
 function Project(props) {
+
+    const image = process.env.PUBLIC_URL+`/img/${props.img}`;
+
   return (
     <ProjectStyle>
-        <img src="" alt="" />
+        <img src={image} alt="" />
         <div className="project-description">
             <h3>Project #{props.id}</h3>
             <p>{props.description}</p>
-            <a href={props.link} alt="github link" target="_blank" rel="noopener noreferrer"><FaGithub size="50px" className="icon"/></a>
+            <a href={props.url} alt="github link" target="_blank" rel="noopener noreferrer"><FaGithub size="40px" className="icon"/></a>
         </div>
     </ProjectStyle>
   )
@@ -36,18 +39,18 @@ const ProjectStyle = styled.div`
         width: 290px;
         height: 150px;
         margin: 30px auto;
-        border-radius: 12px;
-        box-shadow: 5px 5px 5px;
+        ${'' /* border-radius: 12px; */}
+        box-shadow: 7px 7px black;
     }
 
     h3 {
         margin: 0 auto;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     p {
         padding: 1rem;
-        font-size: 1.1rem;
+        font-size: .75rem;
     }
 
     a {

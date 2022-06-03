@@ -2,18 +2,21 @@
 const values = [
     {
         "id": 1,
-        "description": "This is a website called Tea Cozy and it can be used by a company that sells teas online. You can find the code on Github by clicking on the icon below.",
-        "link": "https://github.com/AlexCristian11"
+        "description": "This project is meant to be a copy of the AirBnb landing page. I made this project in order to exercise more the power of state in React and to understand the usability of components and how I can reuse them.",
+        "url": "https://github.com/AlexCristian11/Airbnb_Copy-React",
+        "img": "airbnb.png"
     },
     {
         "id": 2,
-        "description": "Here I made a form for a user to create a profile. I collected the user's name, character, email and birth year. The information was validated using PHP.",
-        "link": "https://github.com/AlexCristian11"
+        "description": "The project consists of a form made with React. The purpose was to understand how forms work in React and I tried to make a form with some of the most common inputs. I also did a mock database check for the email address and password.",
+        "url": "https://github.com/AlexCristian11/React-Form",
+        "img": "form.png"
     },
     {
         "id": 3,
         "description": "This project represents classes in JavaScript and how to use them to create a school catalogue for primary and high schools.",
-        "link": "https://github.com/AlexCristian11"
+        "url": "https://github.com/AlexCristian11/School-Catalogue",
+        "img": ""
     }
 ]
 

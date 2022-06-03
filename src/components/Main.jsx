@@ -3,12 +3,12 @@ import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 
-function Main() {
+function Main(props) {
   return (
     <div>
-        <About />
-        <Projects />
-        <Skills />
+        <About darkMode={props.darkMode}/>
+        <Projects darkMode={props.darkMode}/>
+        <Skills darkMode={props.darkMode}/>
     </div>
   )
 }
