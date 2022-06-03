@@ -59,6 +59,10 @@ const ProjectsStyle = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
 
+    p {
+      font-size: 0.75rem;
+    }
+
 `
 
 export default Projects

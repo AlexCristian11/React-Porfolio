@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import image from '../img-src/placeholder.jpg';
+import image from '../img-src/photo.jpeg';
 
 
 function About(props) {
@@ -9,12 +9,7 @@ function About(props) {
         <div className={props.darkMode ? "dark" : ""} id="about-me-container">
             <div className="description">
                 <h2>About Me</h2>
-                <p>Hi! My name is Alex , a 19 yrs old student from Romania!</p>
-                <p>I study at Romanian-American University in Bucharest , School of Computer Science for Business Management. 
-                I started learning web development about 9 months ago and I loved it ever since. 
-                I started not knowing anything and now I am getting closer and closer to learning React! 
-                I really like making designs and starting to make them into a real website. 
-                I would like to expand my knowledge of web development and to work in a company with real challenges to solve.</p>
+                <p>My name is Popescu Alexandru-Cristian and I am a student from Romania! I am a 20 yrs old very excited to expand my knowledge and meet new people from whom I can learn new things. I study at the Romanian-American University in Bucharest, School of Computer Science for Economics. I started learning web development about 2 years ago and I loved it ever since. I love challenges and puzzles I have to solve, I am determined and eager to solve the problem no matter how hard it is. I am creative and love to turn a website into art and bring new and cool ideas to the table, even if they might be a bit exentric sometimes 😄.</p>
             </div>
             <img src={image} alt="" />
         </div> 

@@ -12,7 +12,7 @@ function Project(props) {
         <div className="project-description">
             <h3>Project #{props.id}</h3>
             <p>{props.description}</p>
-            <a href={props.url} alt="github link" target="_blank" rel="noopener noreferrer"><FaGithub size="50px" className="icon"/></a>
+            <a href={props.url} alt="github link" target="_blank" rel="noopener noreferrer"><FaGithub size="40px" className="icon"/></a>
         </div>
     </ProjectStyle>
   )
@@ -50,7 +50,7 @@ const ProjectStyle = styled.div`
 
     p {
         padding: 1rem;
-        font-size: 1rem;
+        font-size: .75rem;
     }
 
     a {
